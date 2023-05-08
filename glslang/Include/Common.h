@@ -53,6 +53,7 @@
 #include <unordered_map>
 #include <unordered_set>
 #include <vector>
+#include <stdint.h>
 
 #if defined(__ANDROID__) || (defined(_MSC_VER) && _MSC_VER < 1700)
 #include <sstream>
