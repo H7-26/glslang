@@ -55,7 +55,7 @@
 #include <vector>
 #include <stdint.h>
 
-#if defined(__ANDROID__) || (defined(_MSC_VER) && _MSC_VER < 1700)
+#if defined(__ANDROID__)
 #include <sstream>
 namespace std {
 template<typename T>
